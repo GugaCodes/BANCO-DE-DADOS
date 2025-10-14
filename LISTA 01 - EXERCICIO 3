@@ -1,0 +1,5 @@
+Selecione o titulo, preço e tipo de todos os livros com preço entre 12 e 19.
+
+SELECT title as titulo, price as price, type as tipo
+FROM titles
+where price >=12 AND price <=19
