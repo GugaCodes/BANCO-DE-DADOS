@@ -1,0 +1,5 @@
+Selecione todos os pokemons que tem altura maior que 2 metros e peso menor que 100kg.
+
+SELECT nome
+FROM Pokemon
+WHERE altura > 2 AND peso < 100
