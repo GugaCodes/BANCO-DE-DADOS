@@ -1,0 +1,5 @@
+5 - Selecione todos os livros que não contem a letra A em seu título.
+
+SELECT title as titulo
+FROM titles
+where title  not like '%a%'
