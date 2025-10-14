@@ -2,8 +2,5 @@ Selecione todos os pokemons desta categoria de acordo com o código descoberto n
 
 SELECT nome
 FROM Pokemon
-WHERE codPokemon = 121
-
-SELECT codCategoria as Codigo
-FROM Categoria
-where nmCategoria = 'Flame'
+WHERE codCategoria = 121
+order by nome
