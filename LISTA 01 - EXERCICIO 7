@@ -1,7 +1,7 @@
 Selecione o código da categoria "Flame". - aprimorado**
 
-SELECT nome
-FROM Pokemon
-WHERE codPokemon = 121
+SELECT codCategoria
+FROM Categoria
+WHERE nmCategoria = 'flame'
 
 
