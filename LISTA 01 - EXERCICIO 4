@@ -2,4 +2,4 @@
 
 SELECT title as titulo
 FROM titles
-where ytd_sales < 10000
+where ytd_sales * price < 10000
