@@ -2,4 +2,5 @@
 
 SELECT title as titulo, price as price
 FROM titles
-where price >=5 AND price <=15
+where price between 5 and 15
+order by price desc
