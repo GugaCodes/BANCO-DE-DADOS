@@ -1,0 +1,6 @@
+1 - Selecione: nome, sobrenome, cidade e estado de todos os autores que não são da Califórnia.
+
+SELECT	au_lname as nome, au_fname as sobrenome, city as cidade,
+state as estado
+from authors
+where state <> 'CA'
