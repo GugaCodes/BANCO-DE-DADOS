@@ -1,0 +1,9 @@
+Selecione todos os pokemons desta categoria de acordo com o código descoberto no exercício anterior.
+
+SELECT nome
+FROM Pokemon
+WHERE codPokemon = 121
+
+SELECT codCategoria as Codigo
+FROM Categoria
+where nmCategoria = 'Flame'
