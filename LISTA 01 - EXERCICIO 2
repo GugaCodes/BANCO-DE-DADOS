@@ -1,0 +1,6 @@
+Selecione todos os dados de todos os autores que vivem em uma cidade que começa com S.
+
+SELECT	au_fname as nome, au_lname as sobrenome, city as cidade, phone as telefone, address as endereço, zip as CEP,
+state as estado
+from authors
+where city like 's%'
