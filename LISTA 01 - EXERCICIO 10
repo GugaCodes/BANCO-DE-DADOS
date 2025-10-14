@@ -3,5 +3,6 @@ Selecione todos os pokemons que não evoluem de nenhum outro.
 SELECT nome
 FROM Pokemon
 WHERE evoluiDe IS NULL
+order by altura
 
 
