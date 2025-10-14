@@ -1,0 +1,5 @@
+6 - Quais os livros com preços entre 5 e 15?
+
+SELECT title as titulo, price as price
+FROM titles
+where price >=5 AND price <=15
