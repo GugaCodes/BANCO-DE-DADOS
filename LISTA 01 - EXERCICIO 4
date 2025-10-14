@@ -1,0 +1,5 @@
+4 - Selecione todos os livros que faturaram menos de 10000 no ano.
+
+SELECT title as titulo
+FROM titles
+where ytd_sales < 10000
