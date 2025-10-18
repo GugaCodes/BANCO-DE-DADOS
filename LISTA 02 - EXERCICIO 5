@@ -1,0 +1,4 @@
+ Qual a altura do pokemon mais baixo?
+
+select min(altura) as 'altura mais baixa'
+from Pokemon
