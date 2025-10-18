@@ -1,0 +1,3 @@
+0 - Quantos dias se passaram desde o seu nascimento?
+
+select datediff(day,'20060107',getdate()) as 'diferença de dias'
