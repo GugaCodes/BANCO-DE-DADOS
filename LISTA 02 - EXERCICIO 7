@@ -1,0 +1,5 @@
+Qual o peso médio e a altura média de cada categoria de pokemon? (exibindo o código da categoria)
+
+select codPokemon, avg(altura) as 'altura média', avg(peso) as 'peso médio'
+from Pokemon
+group by codPokemon
