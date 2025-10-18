@@ -1,0 +1,5 @@
+Qual a altura média dos pokemons da categoria 160?
+
+select avg(altura) as 'altura media'
+from Pokemon
+where codCategoria = 160
