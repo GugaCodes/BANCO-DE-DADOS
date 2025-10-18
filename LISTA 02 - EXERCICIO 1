@@ -1,0 +1,4 @@
+Qual o peso do pokemon mais pesado?
+
+select max(peso) as 'maior peso'
+from pokemon
