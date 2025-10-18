@@ -1,0 +1,4 @@
+Liste todos os pokemons e o cáculo do seu IMC começando pelo maior.
+
+select nome, peso / (power(ceiling(altura), ceiling(altura))) as imc
+from Pokemon
