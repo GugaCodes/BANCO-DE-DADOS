@@ -1,0 +1,5 @@
+Quantos pokemons tem menos de 10 Kg?
+
+select count(*) as 'pokemon com menos de 10 kg'
+from Pokemon
+where peso < 10
