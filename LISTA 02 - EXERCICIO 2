@@ -1,0 +1,4 @@
+Quantos tipos de pokemons temos cadastrados?
+
+select count(*)
+from tipo
