@@ -1,0 +1,5 @@
+9 - Qual o preço do livro mais barato de cada tipo?
+
+select type as tipo, count(*) as 'qtd'
+from titles
+group by type
