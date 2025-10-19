@@ -1,0 +1,12 @@
+12 (Hard) - Crie uma relação que mostra quantos livros começam com cada letra.
+Ex: 
+A - 2
+C - 1
+D - 6
+
+
+
+select substring(title, 1,1) as 'começa com', COUNT(*) as qtd
+from titles
+group by substring(title, 1,1)
+order by qtd, substring(title, 1,1)
