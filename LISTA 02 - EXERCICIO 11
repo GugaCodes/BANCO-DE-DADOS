@@ -1,0 +1,8 @@
+11 - Quantos livros foram publicados em cada ano?
+(use pubdate, com alguma função para extrair o ano, além de agrupar e agregar).
+Ex: 1991 - 7 
+    2020 - 2
+
+select year(pubdate) as 'ano de publicação', count(*) as qtd
+from titles
+GROUP BY year(pubdate)
