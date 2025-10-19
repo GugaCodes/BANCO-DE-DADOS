@@ -1,0 +1,5 @@
+10 - Quantos autores vivem em cada estado?
+
+select state as estado, count(*) as qtd
+from authors
+group by state
