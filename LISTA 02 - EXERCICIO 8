@@ -1,0 +1,5 @@
+8 - Quantos funcionários estão em cada profissão? Agrupe por JobId. 
+
+select job_id, count(*) as 'qtd funcionários'
+from employee
+group by job_id
