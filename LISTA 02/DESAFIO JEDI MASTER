@@ -1,0 +1,16 @@
+-- qual estado tem mais cidades
+
+select state_name as estado,  count(*) as 'cidade'
+from city
+group by state_name
+order by cidade desc
+
+select state_name as estado,  count(*) as 'cidade'
+from city
+group by state_name
+order by cidade 
+
+
+select state_name as estado, city as cidade
+from City
+where state_name = 'Texas'
