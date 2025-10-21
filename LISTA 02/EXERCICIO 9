@@ -1,5 +1,5 @@
 9 - Qual o preço do livro mais barato de cada tipo?
 
-select type as tipo, count(*) as 'qtd'
+select type as 'tipo' , min(price) as 'menor preço'
 from titles
 group by type
