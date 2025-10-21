@@ -3,10 +3,10 @@ Liste todos os pokemons e o cáculo do seu IMC começando pelo maior.
 -- versão com potência
 select nome, peso / (power(altura, 2)) as imc
 from Pokemon
-order by imc
+order by imc desc
 
 
 --versão normal
 select nome, peso / (altura * altura)  as imc
 from Pokemon
-order by imc
+order by imc desc
