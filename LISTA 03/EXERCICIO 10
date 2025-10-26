@@ -1,0 +1,7 @@
+10 - Quantos pokemons existem em cada categoria? (exiba uma relação com o nome da categoria e a quantidade de pokemons)
+
+
+select nmCategoria, count(*) as 'quantidade de pokemons'
+from Pokemon inner join Categoria
+on pokemon.codCategoria = Categoria.codCategoria
+group by nmCategoria
