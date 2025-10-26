@@ -1,0 +1,5 @@
+6 - Exiba os autores que vivem na mesma cidade de uma editora. (o join não é realizado pelas chaves)
+
+select au_fname as 'nome', au_lname as 'sobrenome'
+from authors inner join publishers
+on authors.city = publishers.city
