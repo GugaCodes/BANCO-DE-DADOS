@@ -1,0 +1,6 @@
+3 - Exiba uma lista com os cargos, e a quantidade de funcionários de cada cargo.
+
+select job_desc as 'cargo', count(*) as qtd
+from employee inner join jobs
+on employee.job_id = jobs.job_id
+group by job_desc
