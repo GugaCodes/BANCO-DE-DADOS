@@ -1,0 +1,6 @@
+1 - Utilize as tabelas Employee e Jobs e exiba cada empregado com seu respectivo cargo
+
+
+select fname as 'primeiro nome', lname as sobrenome, job_desc as cargo
+from employee inner join jobs
+on employee.job_id = jobs.job_id
