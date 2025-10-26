@@ -1,0 +1,6 @@
+4 - Exiba a quantidade de livros publicados por cada editora.
+
+select pub_name as 'editora', count(*) as 'quantidade de livros'
+from titles right outer join publishers
+on publishers.pub_id = titles.pub_id
+group by pub_name
