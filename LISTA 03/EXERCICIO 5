@@ -1,0 +1,7 @@
+5 - Exiba o nome das editoras que possuem um funcionário "Designer" contratado em 1990
+
+select pub_name as 'nome editora'
+from employee inner join publishers 
+on employee.pub_id = publishers.pub_id inner join jobs
+on employee.job_id = jobs.job_id
+where job_desc = 'designer' and year(hire_date) = '1990'
