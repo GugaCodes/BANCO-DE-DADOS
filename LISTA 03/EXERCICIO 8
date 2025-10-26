@@ -1,0 +1,7 @@
+8 - Exiba uma relação de cada pokémon e seus tipos.
+
+select nome, nmTipo as 'tipo'
+from pokemon inner join TipoPokemon
+on pokemon.codPokemon = TipoPokemon.codPokemon
+inner join tipo
+on tipo.codTipo = TipoPokemon.codTipo
