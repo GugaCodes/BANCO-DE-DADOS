@@ -1,0 +1,5 @@
+2 - Utilize as tabelas Publishers e Employee, e exiba cada editora com seus respectivos funcionários.
+
+select fname as 'nome', lname as 'sobrenome', pub_name as 'editora'
+from employee inner join publishers
+on employee.pub_id = publishers.pub_id
