@@ -1,0 +1,8 @@
+9 - Exiba uma relação de todos os pokemon que tem fraqueza para "steel".
+
+select nome, nmTipo as 'fraqueza'
+from pokemon inner join Fraqueza
+on pokemon.codPokemon = Fraqueza.codPokemon
+inner join tipo
+on Fraqueza.codTipo = tipo.codTipo
+where nmTipo = 'Steel'
