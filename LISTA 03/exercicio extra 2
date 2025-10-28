@@ -1,0 +1,6 @@
+-- quantidade de gols do palmeiras por ano
+
+select year(convert(date,data,103)) as ano, sum(mandante_placar) + sum(visitante_placar) as 'qtd de gols'
+from brasileirao
+where mandante = 'palmeiras' or visitante = 'palmeiras'
+group by year(convert(date,data,103))
