@@ -1,0 +1,7 @@
+Desafio Extra Qual estado tem mais Municipios
+
+select estado_nNome as Estado, count(*) as 'qtd municipios'
+from Estado as E inner join Municipio as M
+on E.estado_codigo = M.estado_codigo
+group by E.estado_nNome
+order by count(*) desc
