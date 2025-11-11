@@ -1,2 +1,0 @@
-select count(*) as 'QTD Personagens'
-from HP_Personagens
