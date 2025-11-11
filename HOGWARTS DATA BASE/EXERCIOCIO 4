@@ -1,0 +1,7 @@
+Qual a profissão mais comum dentre os personagens?
+
+SELECT Job AS PROFISSÃO, count(*) as 'qtd de alunos'
+from HP_Personagens
+group by Job 
+order by count(*) desc
+--RESPOSTA: STUDENT É O MAIS COMUM
