@@ -1,0 +1,6 @@
+Quais são magias que possuem efeitos relacionados à água?
+
+
+SELECT name, Effect
+FROM HP_Magias
+where Effect like '%water%'
