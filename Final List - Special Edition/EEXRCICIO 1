@@ -1,0 +1,6 @@
+Em que ano o Ipatinga disputou o campeonato?
+
+SELECT YEAR(CONVERT(date, data, 103)) as 'ano em que participou'
+FROM brasileirao
+where mandante = 'Ipatinga' or visitante = 'Ipatinga'
+group by YEAR(CONVERT(date, data, 103))
