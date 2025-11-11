@@ -1,2 +1,4 @@
+Quantos personagens estão cadastrados? 
+
 select count(*) as 'QTD Personagens'
 from HP_Personagens
