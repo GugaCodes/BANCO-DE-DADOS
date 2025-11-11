@@ -1,0 +1,6 @@
+Quais as casas existentes no cadastro?
+
+SELECT house
+from HP_Personagens
+where House is not NULL
+group by House
