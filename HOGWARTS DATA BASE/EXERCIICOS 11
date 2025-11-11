@@ -1,0 +1,5 @@
+Quem são os personagens que utilizam uma varinha com algum elemento relacionado à dragões?
+
+SELECT name
+FROM HP_Personagens
+WHERE Wand LIKE '%DRAGON%'
