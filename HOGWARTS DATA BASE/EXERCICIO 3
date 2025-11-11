@@ -1,3 +1,5 @@
+A maioria dos personagens é homem ou mulher?
+
 select Gender as Genero, count(*)
 from HP_Personagens
 group by Gender
