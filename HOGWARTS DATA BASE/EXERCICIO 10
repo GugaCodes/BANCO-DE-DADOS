@@ -1,0 +1,6 @@
+Um professor tem uma teoria, que nenhum personagem half-blood tem cabelo preto. Ele está certo?
+
+SELECT *
+FROM HP_Personagens
+WHERE [Blood status] = 'Half-blood' AND [Hair colour] = 'Black'
+-- RESPOSTA: TEORIA FALSA, TEMOS 5 ALUNOS QUE POSSUEM ESSAS CARACTERISTICAS
