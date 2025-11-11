@@ -1,0 +1,6 @@
+Dentre as espécies de personagens que não são humanos, quantos personagens cada uma tem?
+
+SELECT SPECIES, COUNT(*) AS 'QTD'
+FROM HP_Personagens
+WHERE Species <> 'HUMAN'
+GROUP BY Species
