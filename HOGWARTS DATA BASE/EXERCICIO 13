@@ -1,0 +1,7 @@
+Qual o efeito da magia Orchideous? E qual a cor da luz que ela emite?
+
+
+SELECT Effect, Light
+FROM HP_Magias
+WHERE NAME = 'Orchideous'
+-- RESPOSTA: ROSA
