@@ -1,0 +1,6 @@
+Há personagens com Patronos que são cães ou gatos?
+
+SELECT *
+FROM HP_Personagens
+WHERE Patronus = 'CAT' OR Patronus = 'DOG'
+-- RESPOSTA: SIM, 2 GATOS
