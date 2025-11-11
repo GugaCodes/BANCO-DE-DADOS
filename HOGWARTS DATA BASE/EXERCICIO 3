@@ -1,0 +1,5 @@
+select Gender as Genero, count(*)
+from HP_Personagens
+group by Gender
+
+--RESPOSTA: MALE
