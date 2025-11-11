@@ -1,0 +1,5 @@
+Quantos personagens já morreram?
+
+SELECT count(*) as 'qtd de mortos'
+from HP_Personagens
+where Death is not null
