@@ -1,0 +1,6 @@
+Quantos estudantes tem em cada casa?
+
+select house, count(*) as 'qtd de alunos'
+from HP_Personagens
+where job = 'student'
+group by House
