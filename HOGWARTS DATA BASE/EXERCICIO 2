@@ -1,0 +1,2 @@
+select count(*) as 'QTD DE MAGIAS'
+from HP_Magias
