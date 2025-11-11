@@ -1,0 +1,6 @@
+Quantas magias existem de cada tipo?
+
+SELECT type, count(*) as ' qtd de magias'
+from HP_Magias
+group by type
+order by [ qtd de magias]
