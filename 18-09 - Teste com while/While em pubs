@@ -1,0 +1,25 @@
+--Criar 2 váriaveis contador e quantidade
+--criar um estrutura de repetição que traga todos os registros
+--1 POR VEZ
+
+
+
+DECLARE @count int
+DECLARE @QTD int
+
+
+select @QTD = count(*)
+from jobs
+
+set @count = 1
+
+
+while @count <= @QTD
+BEGIN
+	SELECT *
+	FROM jobs
+	where job_id = @count
+
+	SET @COUNT += 1
+	
+END
