@@ -1,0 +1,5 @@
+7 - Para cada pokemon, exiba seu nome e o nome de quem ele evolui
+
+select p.codPokemon, po.nome, p.nome as 'evoluide'
+from pokemon as p inner join pokemon as po
+on p.codPokemon = po.evoluiDe
