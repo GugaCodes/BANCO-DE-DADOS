@@ -1,0 +1,6 @@
+2 - Qual o jogo com o maior número de gols marcados?
+
+select *
+from Brasileirao
+where mandante_Placar + visitante_Placar = (select max(mandante_placar + visitante_placar)
+from Brasileirao)
