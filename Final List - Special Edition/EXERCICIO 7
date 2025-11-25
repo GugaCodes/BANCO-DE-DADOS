@@ -1,0 +1,7 @@
+7 - Quais os 10 filmes com o título mais longo?
+
+select top 10 titulo, LEN(titulo)
+from disney
+order by len(titulo) descselect top 10 titulo, LEN(titulo)
+from disney
+order by len(titulo) desc
