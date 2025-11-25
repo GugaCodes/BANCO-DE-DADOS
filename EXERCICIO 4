@@ -1,0 +1,4 @@
+4 - Mostre uma lista com todos os times que já jogaram o campeonato
+
+select distinct mandante
+from brasileirao
