@@ -1,0 +1,7 @@
+5 - Quantos filmes foram lançados em cada ano? Comece mostrando o ano que teve mais filmes
+
+
+select YEAR(dataLancto) AS 'LANÇAMENTO', count(*)
+from Disney
+group by YEAR(dataLancto)
+ORDER BY 'LANÇAMENTO' DESC
